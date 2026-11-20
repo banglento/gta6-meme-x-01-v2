@@ -3,6 +3,10 @@
 [![rank](https://make.fun/badge/gta6-meme-x-01/banglento/gta6-meme-x-01-v2/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 [![reward](https://make.fun/badge/gta6-meme-x-01/banglento/gta6-meme-x-01-v2/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 
+## The post
+
+Posted on X: https://x.com/banglentoz/status/2123781634025836590
+
 ## The meme
 
 ![My Patience obituary meme](meme.png)
