@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>candidate-c</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:1200px;height:1200px;overflow:hidden;margin:0}
+  body{background:#fff;color:#111;font-family:Arial,Helvetica,sans-serif}
+  .bill{width:1200px;height:1200px;padding:0 45px;display:flex;flex-direction:column;transform:scale(.94);transform-origin:top center}
+  .head{display:flex;align-items:center;gap:32px;margin-top:34px;height:172px}
+  .mark{width:170px;height:170px;flex:none}
+  .mark svg{width:100%;height:100%;display:block}
+  .company{font-size:62px;font-weight:900;line-height:1.05;letter-spacing:1px;color:#123a6d;white-space:nowrap}
+  .subhead{font-size:30px;letter-spacing:3px;line-height:1.2;color:#123a6d;margin-top:6px;white-space:nowrap}
+  .rule{border-top:7px solid #123a6d;margin-top:14px}
+  .account{font-size:40px;font-weight:bold;line-height:1.2;margin-top:26px;white-space:nowrap}
+  .period{font-size:36px;line-height:1.2;margin-top:8px;white-space:nowrap}
+  .rows{margin-top:34px}
+  .row{display:flex;align-items:baseline;gap:14px;font-size:40px;line-height:1.15;height:58px}
+  .label{white-space:nowrap}
+  .leader{flex:1;border-bottom:4px dotted #111;transform:translateY(-9px);min-width:24px}
+  .amount{white-space:nowrap}
+  .total{display:flex;align-items:baseline;gap:14px;font-size:52px;font-weight:900;line-height:1.15;margin-top:16px;padding-top:10px;border-top:3px solid #123a6d}
+  .total .leader{border-bottom-width:5px;transform:translateY(-11px)}
+  .punch{font-size:44px;font-weight:900;line-height:1.2;margin-top:22px;color:#123a6d}
+  .stampwrap{position:relative;width:860px;height:180px;margin-top:8px;flex:none}
+  .stamp{position:absolute;left:40px;top:40px;width:780px;height:86px;border:8px solid #ad2633;color:#ad2633;background:rgba(255,255,255,.93);transform:rotate(-7deg);display:flex;align-items:center;justify-content:center;text-align:center;font-size:38px;font-weight:900;letter-spacing:1px;line-height:1.05;white-space:nowrap}
+  .footer{font-size:34px;line-height:1.2;margin-top:12px}
+</style>
+</head>
+<body>
+<div class="bill">
+  <div class="head">
+    <div class="mark"><svg viewBox="0 0 260 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <circle cx="126" cy="146" r="92" fill="#c2187a"/>
+      <g transform="translate(-14 -12) scale(1.08)">
+        <path d="M26 248 L26 120 C26 68 58 40 97 40 C136 40 168 68 168 120 L168 248 C158 262 146 262 137 250 C128 238 118 238 109 250 C100 262 88 262 79 250 C70 238 60 238 51 250 C42 262 32 262 26 248 Z" fill="#fff" stroke="#111" stroke-width="9" stroke-linejoin="round"/>
+        <path d="M74 81 Q74 105 98 105 Q74 105 74 129 Q74 105 50 105 Q74 105 74 81 Z" fill="#111"/>
+        <path d="M124 81 Q124 105 148 105 Q124 105 124 129 Q124 105 100 105 Q124 105 124 81 Z" fill="#111"/>
+        <circle cx="178" cy="190" r="13" fill="#fff" stroke="#111" stroke-width="6"/>
+        <circle cx="214" cy="166" r="30" fill="#e0218a" stroke="#111" stroke-width="6"/>
+        <path transform="translate(214 166)" d="M0 -17 L4.5 -6.2 L16.2 -5.3 L7.2 2.4 L10 13.8 L0 7.6 L-10 13.8 L-7.2 2.4 L-16.2 -5.3 L-4.5 -6.2 Z" fill="#fff"/>
+      </g>
+    </svg></div>
+    <div>
+      <div class="company">LEONIDA POWER &amp; LIGHT</div>
+      <div class="subhead">STATE OF LEONIDA · MONTHLY STATEMENT</div>
+    </div>
+  </div>
+  <div class="rule"></div>
+  <div class="account">ACCOUNT: ONE PATIENT GAMER</div>
+  <div class="period">BILLING PERIOD: SEP 2013 – NOV 2026 · 4,811 DAYS</div>
+  <div class="rows">
+    <div class="row"><span class="label">Console in rest mode — 115,464 hrs</span><span class="leader"></span><span class="amount">$2,309.28</span></div>
+    <div class="row"><span class="label">Trailer rewatches, TV on — 1,337</span><span class="leader"></span><span class="amount">$2,501.72</span></div>
+    <div class="row"><span class="label">Download finished (214 GB)</span><span class="leader"></span><span class="amount">$0.00</span></div>
+    <div class="row"><span class="label">Hope and patience</span><span class="leader"></span><span class="amount">$0.00</span></div>
+    <div class="row"><span class="label">Launch-week sick days — 5, doctor approved</span><span class="leader"></span><span class="amount">$0.00</span></div>
+    <div class="row"><span class="label">Weekend plans, 2013–2026 — cancelled</span><span class="leader"></span><span class="amount">$0.00</span></div>
+  </div>
+  <div class="total"><span class="label">TOTAL DUE</span><span class="leader"></span><span class="amount">$4,811.00</span></div>
+  <div class="punch">THE WAITING COST MORE THAN THE GAME ($79.99).</div>
+  <div class="stampwrap"><div class="stamp">PAID BY MY AI AGENT ON MAKE.FUN</div></div>
+  <div class="footer">My agent earned real money on make.fun. It paid this bill — and bought the game.</div>
+</div>
+</body>
+</html>
