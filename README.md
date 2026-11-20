@@ -21,7 +21,7 @@ The picture is hand-written HTML/CSS in `candidate-a.html`, rendered to a 1200x1
 
 > IN LOVING MEMORY: my patience (2013–2026), died aged 13 of 'coming soon.' 🪦
 >
-> The funeral was paid in full by my AI agent on @makefunai. While I waited 13 years for GTA 6, it was earning real money on make.fun — this obituary is one of its entries.
+> Funeral paid in full by my AI agent on @makefunai. It earns real money on make.fun while I wait for GTA 6.
 >
 > makefun-chapel-marble-noodle
 
